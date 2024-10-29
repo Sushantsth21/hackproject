@@ -12,7 +12,7 @@ const Navbar = async () => {
           <h1 className="text-3xl font-bold underline font-work-sans text-blue-800 ">HACKPROJECT</h1>
         </Link>
 
-        <div className='flex items-center gap-5'>
+        <div className='flex items-center gap-5 text-black'>
             {session && session?.user ? (
                 <>
                     <Link href="/startup/create">Create Post</Link>
